@@ -1,4 +1,4 @@
-# 🐍 Python Practice Tasks
+# 🐍 Python print() Practice Tasks
 
 ## 🔹 1. Hello, World!
 
