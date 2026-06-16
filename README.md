@@ -103,26 +103,461 @@ gacha bo'lgan mavzularni qamrab oladi.
 
 # 66–85. ASCII Art va Jadval
 
-66. 5x5 kvadrat chizing.
-67. Uchburchak chizing.
-68. Teskari uchburchak chizing.
-69. Piramida chizing.
-70. X harfi shaklini chizing.
-71. Kvadrat va kub jadvali yarating.
-72. Ism-yosh-ball jadvali yarating.
-73. Sonlar jadvali yarating.
-74. Harflarni ustun qilib chiqaring.
-75. Diamond shakli chizing.
-76. Belgilar chizig'i yarating.
-77. Progress bar yarating.
-78. Histogram yarating.
-79. Shahmat taxtasi chizing.
-80. Matn uchun ramka yarating.
-81. Doira ko'rinishini chizing.
-82. Trapetsiya chizing.
-83. Romb chizing.
-84. Bayroq chizing.
-85. Uycha chizing.
+# 66–85. ASCII Art va Jadval Mashqlari
+
+## 66. 5x5 Kvadrat
+
+### Shart
+
+Yulduzchalardan foydalanib 5x5 kvadrat hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+*****
+*****
+*****
+*****
+*****
+```
+
+---
+
+## 67. Uchburchak
+
+### Shart
+
+Yulduzchalardan foydalanib to'g'ri burchakli uchburchak hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+*
+**
+***
+****
+*****
+```
+
+---
+
+## 68. Teskari Uchburchak
+
+### Shart
+
+Teskari uchburchak hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+*****
+****
+***
+**
+*
+```
+
+---
+
+## 69. Piramida
+
+### Shart
+
+Yulduzchalardan foydalanib piramida chizing.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+---
+
+## 70. X Harfi
+
+### Shart
+
+Yulduzchalardan foydalanib X harfini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+*   *
+ * *
+  *
+ * *
+*   *
+```
+
+---
+
+## 71. Kvadrat va Kub Jadvali
+
+### Shart
+
+1 dan 5 gacha sonlarning kvadrati va kubini jadval ko'rinishida chiqaring.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+Son  Kvadrat  Kub
+1    1        1
+2    4        8
+3    9        27
+4    16       64
+5    25       125
+```
+
+---
+
+## 72. Ism-Yosh-Ball Jadvali
+
+### Shart
+
+O'quvchilar ma'lumotlarini jadval ko'rinishida chiqaring.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+Ism      Yosh   Ball
+Ali      18     90
+Vali     19     85
+Hasan    20     95
+```
+
+---
+
+## 73. Sonlar Jadvali
+
+### Shart
+
+1 dan 10 gacha sonlarni jadval ko'rinishida chiqaring.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+Son
+---
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+---
+
+## 74. Harflarni Ustun Qilib Chiqaring
+
+### Shart
+
+"PYTHON" so'zining har bir harfini alohida qatorda chiqaring.
+
+### Input
+
+```text
+PYTHON
+```
+
+### Output
+
+```text
+P
+Y
+T
+H
+O
+N
+```
+
+---
+
+## 75. Diamond (Olmos)
+
+### Shart
+
+Olmos shaklini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+```
+
+---
+
+## 76. Belgilar Chizig'i
+
+### Shart
+
+20 ta "=" belgisidan iborat chiziq chiqaring.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+====================
+```
+
+---
+
+## 77. Progress Bar
+
+### Shart
+
+0% dan 100% gacha progress bar ko'rsating.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+[          ] 0%
+[#         ] 10%
+[#####     ] 50%
+[##########] 100%
+```
+
+---
+
+## 78. Histogram
+
+### Shart
+
+Berilgan qiymatlar uchun histogram yarating.
+
+### Input
+
+```text
+3 5 2
+```
+
+### Output
+
+```text
+***
+*****
+**
+```
+
+---
+
+## 79. Shahmat Taxtasi
+
+### Shart
+
+8x8 shahmat taxtasini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+```
+
+---
+
+## 80. Matn Uchun Ramka
+
+### Shart
+
+Berilgan matnni ramka ichida chiqaring.
+
+### Input
+
+```text
+Python
+```
+
+### Output
+
+```text
++--------+
+| Python |
++--------+
+```
+
+---
+
+## 81. Doira
+
+### Shart
+
+Yulduzchalar yordamida doiraga o'xshash shakl hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+   ***
+ *     *
+*       *
+ *     *
+   ***
+```
+
+---
+
+## 82. Trapetsiya
+
+### Shart
+
+Trapetsiya shaklini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+   ****
+  ******
+ ********
+**********
+```
+
+---
+
+## 83. Romb
+
+### Shart
+
+Romb shaklini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+    *
+   * *
+  *   *
+ *     *
+  *   *
+   * *
+    *
+```
+
+---
+
+## 84. Bayroq
+
+### Shart
+
+Oddiy bayroq shaklini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+************
+************
+------------
+------------
+============
+============
+```
+
+---
+
+## 85. Uycha
+
+### Shart
+
+Uycha shaklini hosil qiling.
+
+### Input
+
+Mavjud emas.
+
+### Output
+
+```text
+    /\
+   /  \
+  /____\
+  |    |
+  | [] |
+  |____|
+```
+
 
 ---
 
