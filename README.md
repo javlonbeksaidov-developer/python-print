@@ -1,123 +1,293 @@
-# 🖨️ Python Print() Mastery – 100 Practice Tasks
+# 📚 Python Practice Tasks (1–85)
 
-## 📌 About
+## 1. Hello, World!
 
-Ushbu to'plam Python dasturlash tilidagi `print()` funksiyasini mukammal o'rganish uchun mo'ljallangan.
+**Shart:** "Hello, World!" matnini chiqaring.
+**Input:** -
+**Output:** Hello, World!
 
-Mashqlar oddiy chiqarishdan boshlab:
+## 2. Ma'lumot turlari
 
-* print()
-* input()
-* ma'lumot turlari
-* sep
-* end
-* f-string
-* format()
-* ASCII art
-* jadval yaratish
-* faylga yozish
+**Shart:** 5, 7.8, True, False, None qiymatlarini alohida qatorda chiqaring.
+**Input:** -
+**Output:**
 
-gacha bo'lgan mavzularni qamrab oladi.
+```
+5
+7.8
+True
+False
+None
+```
+
+## 3. Ism, familiya va yosh
+
+**Shart:** Ism, familiya va yoshni bitta print() orqali chiqaring.
+**Input:** -
+**Output:** Ali Valiyev 20
+
+## 4. Ikki son yig'indisi
+
+**Shart:** Ikki son yig'indisini "Natija: X" ko'rinishida chiqaring.
+**Input:** 10, 15
+**Output:** Natija: 25
+
+## 5. Xush kelibsiz
+
+**Shart:** Foydalanuvchi ismini olib salom bering.
+**Input:** Ali
+**Output:** Xush kelibsiz, Ali!
+
+## 6. To'rtta o'zgaruvchi
+
+**Shart:** 4 ta o'zgaruvchini bitta print() da chiqaring.
+**Input:** -
+**Output:** Ali 20 Toshkent Talaba
+
+## 7. Matn va son
+
+**Shart:** Matn va sonni birlashtirib chiqaring.
+**Input:** -
+**Output:** Yoshim 20 da
+
+## 8. Uch qatorli matn
+
+**Shart:** \n yordamida 3 qatorli matn yarating.
+**Input:** -
+**Output:**
+
+```
+Qator 1
+Qator 2
+Qator 3
+```
+
+## 9. Python 10 marta
+
+**Shart:** "Python" so'zini 10 marta chiqaring.
+**Input:** -
+**Output:** Python Python Python ...
+
+## 10. Kvadrat ildiz
+
+**Shart:** Sonning kvadrat ildizini hisoblang.
+**Input:** 25
+**Output:** 5.0
+
+## 11. List chiqarish
+
+**Shart:** List obyektini chop eting.
+**Input:** [1,2,3]
+**Output:** [1, 2, 3]
+
+## 12. Dictionary chiqarish
+
+**Shart:** Dictionary obyektini chop eting.
+**Input:** {"name":"Ali"}
+**Output:** {'name': 'Ali'}
+
+## 13. type()
+
+**Shart:** type() natijasini chiqaring.
+**Input:** 10
+**Output:** <class 'int'>
+
+## 14. Million formatlash
+
+**Shart:** 1000000 sonini formatlang.
+**Input:** 1000000
+**Output:** 1,000,000
+
+## 15. Asosiy amallar
+
+**Shart:** Yig'indi, ayirma va ko'paytmani chiqaring.
+**Input:** 10, 5
+**Output:** 15 5 50
+
+## 16. Bool va matn
+
+**Shart:** Bool qiymatni matn bilan chiqaring.
+**Input:** True
+**Output:** Holat: True
+
+## 17. Complex son
+
+**Shart:** Complex sonni chiqaring.
+**Input:** 2+3j
+**Output:** (2+3j)
+
+## 18. Bo'sh qator
+
+**Shart:** Bo'sh qator qoldirib matn chiqaring.
+**Input:** -
+**Output:**
+
+```
+Salom
+
+Dunyo
+```
+
+## 19. Ajratuvchi chiziq
+
+**Shart:** Chiziq yarating.
+**Input:** -
+**Output:** --------------------
+
+## 20. Bitta jumla
+
+**Shart:** Ism, yosh va shaharni bitta jumlada chiqaring.
+**Input:** Ali, 20, Toshkent
+**Output:** Ali 20 yoshda va Toshkentda yashaydi.
 
 ---
 
-# 1–20. Asosiy print() va ma'lumot turlari
+## 21–40. sep va end
 
-1. "Hello, World!" ni chop eting.
-2. 5, 7.8, True, False, None ni har birini alohida qatorda chop eting.
-3. O'z ismingiz, familiyangiz va yoshingizni bitta print() da chiqaring.
-4. Ikki sonni qo'shib, "Natija: 25" shaklida chiqaring.
-5. Foydalanuvchidan ism olib, "Xush kelibsiz!" deb chiqaring.
-6. 4 ta o'zgaruvchini bitta print() da chiqaring.
-7. Matn va sonni birlashtirib chiqaring.
-8. \n yordamida 3 qatorli matn yarating.
-9. "Python" so'zini 10 marta chiqaring.
-10. Kvadrat ildizni hisoblab chiqaring.
-11. List obyektini chop eting.
-12. Dictionary obyektini chop eting.
-13. type() natijasini chiqaring.
-14. 1000000 sonini formatlab chiqaring.
-15. Ikki sonning yig'indisi, ayirmasi va ko'paytmasini chiqaring.
-16. bool qiymatni matn bilan birga chiqaring.
-17. complex sonni chiqaring.
-18. Bo'sh qator qoldirib matn chiqaring.
-19. Ajratuvchi chiziq yarating.
-20. Ism, yosh va shaharni bitta jumlada chiqaring.
+Har bir masala uchun shu formatdan foydalaning:
+
+### 21. Vergul bilan ajratish
+
+**Shart:** Sonlarni vergul bilan chiqaring.
+**Input:** 1 2 3 4 5
+**Output:** 1,2,3,4,5
+
+### 22. "***" bilan ajratish
+
+**Input:** a b c
+**Output:** a***b***c
+
+### 23. Nuqta bilan ajratish
+
+**Input:** 1 2 3
+**Output:** 1.2.3
+
+### 24. end=""
+
+**Input:** -
+**Output:** SalomDunyo
+
+### 25. end="\n\n\n"
+
+**Output:** Matnlar orasida 3 qator bo'sh joy
+
+### 26. sep="\n"
+
+**Output:**
+
+```
+A
+B
+C
+```
+
+### 27. Familiya, Ism
+
+**Input:** Aliyev Ali
+**Output:** Aliyev, Ali
+
+### 28. Jadval ko'rinishi
+
+**Output:**
+
+```
+ID   Ism
+1    Ali
+```
+
+### 29. 1–20 sonlar
+
+**Output:** 1,2,3,...,20
+
+### 30. Nuqta bilan tugash
+
+**Output:** Salom.
+
+### 31. Tab bilan ajratish
+
+**Output:** A	B	C
+
+### 32. Progress
+
+**Output:** Loading...
+
+### 33. sep=""
+
+**Output:** Python
+
+### 34. Emoji
+
+**Output:** 🚀 Python
+
+### 35. "+" bilan ajratish
+
+**Output:** 1+2+3+4+5
+
+### 36. Telefon formatlash
+
+**Output:** +998 (90) 123-45-67
+
+### 37. end=" "
+
+**Output:** Salom Dunyo
+
+### 38. Ichki ro'yxat
+
+**Output:** [[1,2],[3,4]]
+
+### 39. Bir nechta print
+
+**Output:** Assalomu alaykum
+
+### 40. sep va end
+
+**Output:** A-B-C Done
 
 ---
 
-# 21–40. sep va end
+## 41–65. Formatlash
 
-21. Sonlarni vergul bilan ajrating.
-22. So'zlarni "***" bilan ajrating.
-23. Sonlarni nuqta bilan ajrating.
-24. end="" bilan bir qatorda chiqaring.
-25. end="\n\n\n" bilan bo'sh joy yarating.
-26. sep="\n" ishlating.
-27. Familiya, Ism ko'rinishida chiqaring.
-28. Jadval ko'rinishida chiqaring.
-29. 1–20 sonlarni vergul bilan chiqaring.
-30. Har jumla oxiriga nuqta qo'ying.
-31. sep="\t" ishlating.
-32. Oddiy progress ko'rsating.
-33. sep="" bilan yopishtirib chiqaring.
-34. Emoji qo'shib chiqaring.
-35. 5 ta sonni "+" bilan chiqaring.
-36. Telefon raqamini formatlang.
-37. end=" " ishlating.
-38. Ichki ro'yxat chiqaring.
-39. Bir jumlani bir nechta print bilan yig'ing.
-40. sep va end ni birga ishlating.
+Har biri uchun:
 
----
+**Shart:** Formatlash usulidan foydalaning.
+**Input:** Mos qiymatlar.
+**Output:** Formatlangan natija.
 
-# 41–65. Formatlash
-
-41. f-string bilan salomlashuv yarating.
-42. .format() ishlating.
-43. % formatlashdan foydalaning.
-44. 3 xonali kasr chiqaring.
-45. O'ngga tekislang.
-46. Markazga joylashtiring.
-47. Minglik ajratuvchi ishlating.
-48. Foiz ko'rinishida chiqaring.
-49. Sana va vaqtni formatlang.
-50. Oldidan 0 qo'shib chiqaring.
-51. upper() bilan formatlang.
-52. Ikki o'zgaruvchini formatlang.
-53. Valyuta ko'rinishida chiqaring.
-54. Ifodani f-string ichida hisoblang.
-55. Matnni kesib chiqaring.
-56. Bir nechta qiymatni formatlang.
-57. Jadval ustunlari yarating.
-58. repr() va str() ni solishtiring.
-59. ANSI ranglaridan foydalaning.
-60. Alignmentlarni taqqoslang.
-61. f-string misoli.
-62. .format() misoli.
-63. % misoli.
-64. Uchalasini taqqoslang.
-65. Eng qulay usul haqida xulosa yozing.
+41. f-string salomlashuv
+42. .format() ishlatish
+43. % formatlash
+44. 3 xonali kasr → 3.142
+45. O'ngga tekislash
+46. Markazga joylashtirish
+47. Minglik ajratuvchi → 1,000,000
+48. Foiz → 85.00%
+49. Sana-vaqt formatlash
+50. Oldidan 0 → 00025
+51. upper() → PYTHON
+52. Ikki o'zgaruvchi formatlash
+53. Valyuta → $1,500.00
+54. f-string ichida hisoblash
+55. Matn kesish
+56. Bir nechta qiymat formatlash
+57. Jadval ustunlari
+58. repr() va str()
+59. ANSI ranglari
+60. Alignment taqqoslash
+61. f-string misoli
+62. .format() misoli
+63. % misoli
+64. Uchalasini taqqoslash
+65. Xulosa yozish
 
 ---
 
-# 66–85. ASCII Art va Jadval
+## 66–85. ASCII Art va Jadval
 
-# 66–85. ASCII Art va Jadval Mashqlari
+### 66. 5x5 kvadrat
 
-## 66. 5x5 Kvadrat
+**Output:**
 
-### Shart
-
-Yulduzchalardan foydalanib 5x5 kvadrat hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
 *****
 *****
 *****
@@ -125,21 +295,9 @@ Mavjud emas.
 *****
 ```
 
----
+### 67. Uchburchak
 
-## 67. Uchburchak
-
-### Shart
-
-Yulduzchalardan foydalanib to'g'ri burchakli uchburchak hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
 *
 **
 ***
@@ -147,21 +305,9 @@ Mavjud emas.
 *****
 ```
 
----
+### 68. Teskari uchburchak
 
-## 68. Teskari Uchburchak
-
-### Shart
-
-Teskari uchburchak hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
 *****
 ****
 ***
@@ -169,21 +315,9 @@ Mavjud emas.
 *
 ```
 
----
+### 69. Piramida
 
-## 69. Piramida
-
-### Shart
-
-Yulduzchalardan foydalanib piramida chizing.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
     *
    ***
   *****
@@ -191,21 +325,9 @@ Mavjud emas.
 *********
 ```
 
----
+### 70. X harfi
 
-## 70. X Harfi
-
-### Shart
-
-Yulduzchalardan foydalanib X harfini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
 *   *
  * *
   *
@@ -213,96 +335,35 @@ Mavjud emas.
 *   *
 ```
 
----
+### 71. Kvadrat va kub jadvali
 
-## 71. Kvadrat va Kub Jadvali
+**Output:**
 
-### Shart
-
-1 dan 5 gacha sonlarning kvadrati va kubini jadval ko'rinishida chiqaring.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-Son  Kvadrat  Kub
-1    1        1
-2    4        8
-3    9        27
-4    16       64
-5    25       125
+```
+n  n²  n³
+1  1   1
+2  4   8
+...
 ```
 
----
+### 72. Ism-yosh-ball jadvali
 
-## 72. Ism-Yosh-Ball Jadvali
-
-### Shart
-
-O'quvchilar ma'lumotlarini jadval ko'rinishida chiqaring.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-Ism      Yosh   Ball
-Ali      18     90
-Vali     19     85
-Hasan    20     95
+```
+Ism  Yosh  Ball
+Ali   20    90
 ```
 
----
+### 73. Sonlar jadvali
 
-## 73. Sonlar Jadvali
-
-### Shart
-
-1 dan 10 gacha sonlarni jadval ko'rinishida chiqaring.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-Son
----
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+```
+1 2 3
+4 5 6
+7 8 9
 ```
 
----
+### 74. Harflarni ustun qilish
 
-## 74. Harflarni Ustun Qilib Chiqaring
-
-### Shart
-
-"PYTHON" so'zining har bir harfini alohida qatorda chiqaring.
-
-### Input
-
-```text
-PYTHON
 ```
-
-### Output
-
-```text
 P
 Y
 T
@@ -311,296 +372,96 @@ O
 N
 ```
 
----
+### 75. Diamond
 
-## 75. Diamond (Olmos)
-
-### Shart
-
-Olmos shaklini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-    *
-   ***
-  *****
- *******
-*********
- *******
-  *****
-   ***
-    *
+```
+  *
+ ***
+*****
+ ***
+  *
 ```
 
----
+### 76. Belgilar chizig'i
 
-## 76. Belgilar Chizig'i
-
-### Shart
-
-20 ta "=" belgisidan iborat chiziq chiqaring.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
+```
 ====================
 ```
 
----
+### 77. Progress bar
 
-## 77. Progress Bar
-
-### Shart
-
-0% dan 100% gacha progress bar ko'rsating.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-[          ] 0%
-[#         ] 10%
-[#####     ] 50%
-[##########] 100%
+```
+[######----] 60%
 ```
 
----
+### 78. Histogram
 
-## 78. Histogram
-
-### Shart
-
-Berilgan qiymatlar uchun histogram yarating.
-
-### Input
-
-```text
-3 5 2
+```
+A: ###
+B: #####
+C: ##
 ```
 
-### Output
+### 79. Shahmat taxtasi
 
-```text
-***
-*****
-**
+```
+# # # #
+ # # # #
+# # # #
+ # # # #
 ```
 
----
+### 80. Matn uchun ramka
 
-## 79. Shahmat Taxtasi
-
-### Shart
-
-8x8 shahmat taxtasini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-#.#.#.#.
-.#.#.#.#
-#.#.#.#.
-.#.#.#.#
-#.#.#.#.
-.#.#.#.#
-#.#.#.#.
-.#.#.#.#
+```
++---------+
+| Python  |
++---------+
 ```
 
----
+### 81. Doira
 
-## 80. Matn Uchun Ramka
-
-### Shart
-
-Berilgan matnni ramka ichida chiqaring.
-
-### Input
-
-```text
-Python
+```
+  ***
+ *   *
+ *   *
+  ***
 ```
 
-### Output
+### 82. Trapetsiya
 
-```text
-+--------+
-| Python |
-+--------+
 ```
-
----
-
-## 81. Doira
-
-### Shart
-
-Yulduzchalar yordamida doiraga o'xshash shakl hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-   ***
- *     *
-*       *
- *     *
-   ***
-```
-
----
-
-## 82. Trapetsiya
-
-### Shart
-
-Trapetsiya shaklini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
    ****
   ******
  ********
 **********
 ```
 
----
+### 83. Romb
 
-## 83. Romb
-
-### Shart
-
-Romb shaklini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-    *
-   * *
-  *   *
- *     *
-  *   *
-   * *
-    *
+```
+   *
+  ***
+ *****
+  ***
+   *
 ```
 
----
+### 84. Bayroq
 
-## 84. Bayroq
-
-### Shart
-
-Oddiy bayroq shaklini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-************
-************
-------------
-------------
-============
-============
+```
+********
+********
+--------
+--------
 ```
 
----
+### 85. Uycha
 
-## 85. Uycha
-
-### Shart
-
-Uycha shaklini hosil qiling.
-
-### Input
-
-Mavjud emas.
-
-### Output
-
-```text
-    /\
-   /  \
-  /____\
-  |    |
-  | [] |
-  |____|
 ```
-
-
----
-
-# 86–100. Ilg'or mashqlar
-
-86. Natijani faylga yozing.
-87. flush=True ishlating.
-88. Escape belgilarini ko'rsating.
-89. List unpacking ishlating.
-90. print() ni funksiya ichida ishlating.
-91. Log yozuvini chiqaring.
-92. Name Card yarating.
-93. HTML formatida chiqaring.
-94. Rangli matn funksiyasi yozing.
-95. JSON ko'rinishida chiqaring.
-96. Rekursiv daraxt chizing.
-97. end va sep ni birlashtiring.
-98. Triple quotes bilan katta matn chiqaring.
-99. print() ning barcha parametrlarini ishlating.
-100. Yakuniy loyiha: Professional Shaxsiy Hisobot yarating.
-
----
-
-## 🎯 Natija
-
-Ushbu 100 ta mashqni bajarganingizdan so'ng:
-
-✅ print()
-
-✅ input()
-
-✅ data types
-
-✅ formatting
-
-✅ sep
-
-✅ end
-
-✅ ASCII art
-
-✅ console UI
-
-✅ file output
-
-ko'nikmalarini mustahkam egallagan bo'lasiz.
+   /\
+  /  \
+ /____\
+ |    |
+ |____|
+```
